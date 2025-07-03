@@ -9,7 +9,7 @@ from data_engineering_practice.utils.logging import new_logger
 logger = new_logger("homework-01")
 
 
-def main():
+if __name__ == '__main__':
     # 验证 xgboost 安装
     try:
         import xgboost as xgb
@@ -26,4 +26,3 @@ def main():
 
     # 输出 Hello Python!
     logger.info("Hello Python!")
-

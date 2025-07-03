@@ -14,8 +14,7 @@ from data_engineering_practice.utils.logging import new_logger
 
 logger = new_logger("task-01")
 
-
-def main():
+if __name__ == '__main__':
     print_dep_version(logger, "numpy")
     print_dep_version(logger, "pandas")
     print_dep_version(logger, "scikit-learn")
