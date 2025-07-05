@@ -9,10 +9,21 @@ license = "MIT"
 readme = "README.md"
 
 [tasks]
+# 第一章
 task_01 = { cmd = "python -m data_engineering_practice.tasks.task_01" }
 task_02 = { cmd = "python -m data_engineering_practice.tasks.task_02" }
 task_03 = { cmd = "python -m data_engineering_practice.tasks.task_03" }
 homework_01 = { cmd = "python -m data_engineering_practice.homeworks.homework_01" }
+# 第二章
+task_04 = { cmd = "python -m data_engineering_practice.tasks.task_04" }
+task_05 = { cmd = "python -m data_engineering_practice.tasks.task_05" }
+task_06 = { cmd = "python -m data_engineering_practice.tasks.task_06" }
+task_07 = { cmd = "python -m data_engineering_practice.tasks.task_06" }
+task_08 = { cmd = "python -m data_engineering_practice.tasks.task_06" }
+task_09 = { cmd = "python -m data_engineering_practice.tasks.task_06" }
+task_10 = { cmd = "python -m data_engineering_practice.tasks.task_10" }
+task_11 = { cmd = "python -m data_engineering_practice.tasks.task_11" }
+task_12 = { cmd = "python -m data_engineering_practice.tasks.task_12" }
 
 [dependencies]
 python = "3.10.*"

@@ -1,5 +1,5 @@
 """
-# 1.1.h1 课后作业（一）
+# 1.h1 课后作业（一）
 
 指导书要求输出 “Hello Python!” 并验证 XGBoost 和 LightGBM 安装成功。
 """

@@ -1,10 +1,10 @@
 """
-# 1.1.t3 实验任务 3
+# 1.t3 实验任务 3
 
-指导书要求手动下载 lightgbm 的预编译 whl 文件并安装，此处使用 poetry 直接安装。
+指导书要求手动下载 lightgbm 的预编译 whl 文件并安装，此处使用 pixi 直接安装。
 
 ```shell
-poetry add lightgbm
+pixi add --pypi lightgbm
 ```
 """
 from data_engineering_practice.utils.deps_version import print_dep_version
