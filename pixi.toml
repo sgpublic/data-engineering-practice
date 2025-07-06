@@ -25,6 +25,9 @@ task_10 = { cmd = "python -m data_engineering_practice.tasks.task_10" }
 task_11 = { cmd = "python -m data_engineering_practice.tasks.task_11" }
 task_12 = { cmd = "python -m data_engineering_practice.tasks.task_12" }
 task_13 = { cmd = "python -m data_engineering_practice.tasks.task_13" }
+homework_02 = { cmd = "python -m data_engineering_practice.homeworks.homework_02" }
+# 第三章
+task_14 = { cmd = "python -m data_engineering_practice.tasks.task_14" }
 
 [dependencies]
 python = ">=3.10, <3.11"
@@ -36,6 +39,8 @@ pandas = ">=2.3.0, <2.4"
 scikit-learn = ">=1.7.0, <1.8"
 xgboost = ">=3.0.2, <3.1"
 lightgbm = ">=4.6.0, <4.7"
+matplotlib = ">=3.10.3, <4"
+pandas-stubs = ">=2.3.0.250703, <3"
 
 [pypi-options]
 index-url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
